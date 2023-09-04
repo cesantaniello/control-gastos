@@ -10,8 +10,7 @@ const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto}) => {
     const [categoria, setCategoria] = useState('')
 
     const ocultarModal = () => {
-        setAnimarModal(false)
-        
+        setAnimarModal(false)   
         setTimeout(() => {
             setModal(false)
         }, 500)

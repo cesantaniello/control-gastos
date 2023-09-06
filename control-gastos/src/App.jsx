@@ -101,6 +101,7 @@ function App() {
             />
             <ListadoGastos 
               gastos={gastos}
+              setGastos={setGastos}
               setGastoEditar={setGastoEditar}
               eliminarGasto={eliminarGasto}
               filtro={filtro}
